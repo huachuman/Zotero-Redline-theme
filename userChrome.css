@@ -1,9 +1,4 @@
 
-/*
-.virtualized-table .row{background: #121212 !important; color: #FFFFFF !important;}
-.virtualized-table .row.highlighted {background: #383838 !important; color: #FFFFFF !important;}
-*/
-
 
 /**********************/
 /*Title aka Menu bar*/
@@ -37,7 +32,7 @@
     overflow:clip!important;
 
 }
-
+/*Shade truncated text instead of ellipsis*/
 .virtualized-table .cell, .drag-image-container .cell {
 text-overflow:clip!important;
 background: linear-gradient(to left,#00000033, transparent 25px)!important;
@@ -72,7 +67,6 @@ z-index:9999999!important;
 /**********************/
 /*Tab bar*/
 /**********************/
-
 .tab {height:28px!important;
 padding-left:4px!important;
 padding-right:20px!important;
@@ -85,11 +79,13 @@ font-family: 'Roslindale Text'!important;
 /**********************/
 /*Toolbar*/
 /**********************/
+/*Shorten toolbar height*/
 .toolbar{min-height:29px!important;
     height:29px!important;
     max-height:29px!important;
 }
 
+/*Reduce toolbar button size*/
 .toolbarbutton-icon {
     width: 20px !important;
     height: 20px !important;
@@ -116,17 +112,24 @@ margin-left: -15px!important;
     margin-left:-27px!important;
     padding:0px!important;
     overflow-x: hidden!important;
-    }
+ }
 
  /*Make folder icons smaller*/
 #zotero-collections-tree .virtualized-table .row .icon-css:not(.twisty) {
         width:10px!important;
         height:10px!important;  
-    }
+        margin-left:-5px!important;
+}
 
-    .tag-selector-filter-container .btn{
+/*Reduce gap between folder icon and item name*/
+#zotero-collections-tree .cell.primary .cell-text {
+    margin-left:0px!important;
+}
+
+ /*Fix oversized tag button*/
+.tag-selector-filter-container .btn{
         padding:3px 4px!important;
-    }
+}
 
 
 /*Allow narrow collections pane*/
@@ -169,13 +172,9 @@ min-width:50px!important;
 [zoteroUIDensity="compact"] .splitter{--draggable-size:12px!important;}
 
 
-
 /*
-
-
+.virtualized-table .row{background: #121212 !important; color: #FFFFFF !important;}
+.virtualized-table .row.highlighted {background: #383838 !important; color: #FFFFFF !important;}
 
 #zotero-item-pane-content {background: #121212 !important; color: #FFFFFF !important;}
-
-
-
 */
