@@ -20,6 +20,7 @@ Currently designed for dark mode.
 - compact collections and items pane
 - more to come
 
+Note: keep in mind you can adjust font size in Zotero's View menu
 
 ## Modding Zotero:
 If you want further customization, here are the steps to get DevTools and use the Element Picker to edit almost anything you want. These are the steps for Windows. If someone knows the steps for other platofrms please let me know.
