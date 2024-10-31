@@ -1,4 +1,4 @@
-# Functional Zotero Theme
+# Zotero Redline (functional Zotero theme)
 Zotero 7 is pretty, but it doesn't make the best use of your screen space. If you prefer getting work done over feeling pretty, and making the most out of your pixels, try this compact, functional Zotero theme.
 
 Currently designed for dark mode.
@@ -11,7 +11,8 @@ Currently designed for dark mode.
   - border
 - item selection highlight effects
   - slight zoom
-  - change color (currently set to red)
+  - bolded text
+  - red background color
   - border
 - Truncated text cell shade (instead of ellipses)
 - shorter titlebar height
