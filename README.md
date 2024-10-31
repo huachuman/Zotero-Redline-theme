@@ -8,9 +8,9 @@ Currently designed for dark mode.
   - slight zoom
   - darker background
   - border
-- item selection highlight
+- item selection highlight effects
   - slight zoom
-  - color (currently set to red)
+  - change color (currently set to red)
   - border
 - Truncated text cell shade (instead of ellipses)
 - shorter titlebar height
