@@ -26,7 +26,7 @@ Create a new shortcut on your desktop or elsewhere (right click > new > shortcut
 
 "C:\Program Files\Zotero\zotero.exe" -ZoteroDebugText -jsdebugger
 
-You may have to adjust the path for your installation. But keep the quotations marks.
+You may have to adjust the path for your installation. But keep the quotations marks. Save it and launch the shortcut.
 
 Zotero with throw some warnings up, just say ok and let it load. You'll see the DevTools window appear.
 
