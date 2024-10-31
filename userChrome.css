@@ -1,0 +1,181 @@
+
+/*
+.virtualized-table .row{background: #121212 !important; color: #FFFFFF !important;}
+.virtualized-table .row.highlighted {background: #383838 !important; color: #FFFFFF !important;}
+*/
+
+
+/**********************/
+/*Title aka Menu bar*/
+/**********************/
+#titlebar, .menubar-container {
+    height:16px!important;
+    min-height:16px!important;
+    --tab-min-height:16px!important;
+}
+
+/*Fix menu height*/
+#main-menubar {
+    height:16px!important;
+    padding:0px!important;
+
+}
+
+/*Fix zotero icon*/
+.titlebar-icon {
+    width:12px!important;
+    height:12px!important;
+    margin:1px!important;
+
+}
+
+/**********************/
+/*Items list*/
+/**********************/
+.virtualized-table .row{
+    text-overflow:clip!important;
+    overflow:clip!important;
+
+}
+
+.virtualized-table .cell, .drag-image-container .cell {
+text-overflow:clip!important;
+background: linear-gradient(to left,#00000033, transparent 25px)!important;
+}
+
+/*Hover effects*/
+.row:hover { 
+    background: rgb(26, 26, 26) !important;
+    font-size:1.15em!important;
+    z-index:9999999!important;
+    border:1px solid rgba(69, 69, 69, 0.839)!important;
+}
+
+/*Highlight selected row*/
+.virtualized-table .row.selected {
+    font-size:1.15em!important;
+    font-weight: 700!important;
+background: rgba(187, 10, 10, 0.4)!important;
+border-radius: 16px!important;
+border: 1px solid rgba(255, 16, 16, 0.36)!important;
+z-index:9999999!important;
+}
+
+
+/*Fade highlight unfocused selected row*/
+.virtualized-table:not(:focus) .row.selected {
+    background: rgba(255, 16, 16, 0.3)!important;
+    z-index:9999999!important;
+}
+
+
+/**********************/
+/*Tab bar*/
+/**********************/
+
+.tab {height:28px!important;
+padding-left:4px!important;
+padding-right:20px!important;
+font-size:0.75rem!important;
+min-width:200px!important;
+font-family: 'Roslindale Text'!important;
+}
+
+
+/**********************/
+/*Toolbar*/
+/**********************/
+.toolbar{min-height:29px!important;
+    height:29px!important;
+    max-height:29px!important;
+}
+
+.toolbarbutton-icon {
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px!important;
+}
+
+/*smaller toolbar icons*/
+#zotero-collections-toolbar toolbarbutton[type="menu"], #zotero-items-toolbar toolbarbutton[type="menu"], #zotero-item-pane-header toolbarbutton[type="menu"], #zotero-tabs-toolbar toolbarbutton[type="menu"] {
+    width: 35px!important;
+}
+
+
+/***************************/
+/*Left collection pane*/
+/***************************/
+
+/*Shove "My Library" to the left*/
+#collection-tree-row-0 {
+margin-left: -15px!important;
+}
+
+/*Shove Collection list to the left*/
+#zotero-collections-tree-container {
+    margin-left:-27px!important;
+    padding:0px!important;
+    overflow-x: hidden!important;
+    }
+
+ /*Make folder icons smaller*/
+#zotero-collections-tree .virtualized-table .row .icon-css:not(.twisty) {
+        width:10px!important;
+        height:10px!important;  
+    }
+
+    .tag-selector-filter-container .btn{
+        padding:3px 4px!important;
+    }
+
+
+/*Allow narrow collections pane*/
+#zotero-collections-pane {
+min-width:50px!important;
+}
+
+/*Remove "..." from collections for extra display space*/
+#zotero-collections-tree .cell.primary .cell-text{
+    overflow:clip!important;
+    text-overflow: clip!important;
+}
+
+#zotero-collections-tree-container .virtualized-table .row, .drag-image-container .row {
+    width:110%!important;
+}
+
+/*Allow short tag selector*/
+#zotero-tag-selector-container {min-height:10px!important;}
+
+/***************************/
+/*Right item/context pane*/
+/***************************/
+
+/*Allow narrow right side item/context panes*/
+.item-pane {
+    min-width:80px!important;
+}
+.zotero-item-pane-content {
+    min-width:100px!important;
+}
+#zotero-context-pane {
+    min-width:200px!important;
+}
+#zotero-context-pane-inner {
+    min-width:200px!important;
+}
+
+/* Make draggable area for panes wider*/
+[zoteroUIDensity="compact"] .splitter{--draggable-size:12px!important;}
+
+
+
+/*
+
+
+
+#zotero-item-pane-content {background: #121212 !important; color: #FFFFFF !important;}
+
+
+
+*/
