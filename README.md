@@ -4,6 +4,7 @@ Do you just want to be pretty, or do you want to actually get work done? Make th
 Currently designed for dark mode.
 
 ## Features:
+- generally reduced wasted space
 - item hover effects
   - slight zoom
   - darker background
@@ -18,6 +19,7 @@ Currently designed for dark mode.
 - shorter toolbar
 - compact collections and items pane
 - more to come
+
 
 ## Modding Zotero:
 If you want further customization, here are the steps to get DevTools and use the Element Picker to edit almost anything you want. These are the steps for Windows. If someone knows the steps for other platofrms please let me know.
