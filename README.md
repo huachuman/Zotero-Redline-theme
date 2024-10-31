@@ -1,5 +1,5 @@
 # Functional Zotero Theme
-Zotero 7 is pretty, but it doesn't make the best use of your screen space. If you actually want to get work done and make the most out of your pixels, try this compact, functional Zotero theme.
+Zotero 7 is pretty, but it doesn't make the best use of your screen space. If you prefer getting work done over feeling pretty, and making the most out of your pixels, try this compact, functional Zotero theme.
 
 Currently designed for dark mode.
 
