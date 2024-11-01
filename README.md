@@ -3,6 +3,8 @@ Zotero 7 is pretty, but it doesn't make the best use of your screen space. If yo
 
 Currently designed for dark mode.
 
+This theme was created for personal purposes, so some bugs may exist, and some tweaks may be needed for your own preferences. Feel free to contribute or post anything in Issues!
+
 ## Features:
 - generally reduced wasted space
 - item hover and select effects
@@ -24,6 +26,8 @@ Note: keep in mind you can adjust font size in Zotero's View menu
 
 ## Modding Zotero:
 If you want further customization, here are the steps to get DevTools and use the Element Picker to edit almost anything you want. These are the steps for Windows. If someone knows the steps for other platofrms please let me know.
+
+Note that some elements are harder to style than others.
 
 Create a new shortcut on your desktop or elsewhere (right click > new > shortcut) and paste this: 
 
