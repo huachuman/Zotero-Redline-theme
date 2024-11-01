@@ -25,7 +25,9 @@ This theme was created for personal purposes, so some bugs may exist, and some t
 Note: keep in mind you can adjust font size in Zotero's View menu
 
 ## Installation
-Place the userChrome.css in C:\Users\User_name\AppData\Roaming\Zotero\Zotero\Profiles\YourProfile.default\chrome\
+Place the userChrome.css in:
+
+C:\Users\User_name\AppData\Roaming\Zotero\Zotero\Profiles\YourProfile.default\chrome\
 
 This location may be in Local instead of Roaming depending on your installation
 
