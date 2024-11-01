@@ -29,7 +29,7 @@ Place the userChrome.css in:
 
 C:\Users\User_name\AppData\Roaming\Zotero\Zotero\Profiles\YourProfile.default\chrome\
 
-This location may be in Local instead of Roaming depending on your installation
+I think this location may be in Local instead of Roaming depending on your installation, but don't hold me to it.
 
 ## Modding Zotero:
 If you want further customization, here are the steps to get DevTools and use the Element Picker to edit almost anything you want. These are the steps for Windows. If someone knows the steps for other platofrms please let me know.
