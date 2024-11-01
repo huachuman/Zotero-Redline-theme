@@ -5,24 +5,19 @@ Currently designed for dark mode.
 
 ## Features:
 - generally reduced wasted space
-- item hover effects
-  - slight zoom
+- item hover and select effects
+  - slight text zoom
   - darker background
-  - border
-- item selection highlight effects
-  - slight zoom
-  - bolded text
-  - red background color
-  - border
+  - red background for selected
 - Truncated text cell shade (instead of ellipses)
 - shorter titlebar height
 - wider tabs
-- grow +zoom tabs on hover
+- grow + zoom text on tabs on hover
 - smooth transition effects
 - shorter toolbar
 - compact collections and items pane
 - fade collections when not focused
-- Franklin Gothic font for compact text
+- Franklin Gothic font for compact text display
 - more to come
 
 Note: keep in mind you can adjust font size in Zotero's View menu
