@@ -1,8 +1,7 @@
-
-
-/**********************/
+/******************************************************/
 /*Title aka Menu bar*/
-/**********************/
+/******************************************************/
+
 #titlebar, .menubar-container {
     height:16px!important;
     min-height:16px!important;
@@ -24,61 +23,71 @@
 
 }
 
-/**********************/
-/*Items list*/
-/**********************/
-.virtualized-table .row{
-    text-overflow:clip!important;
-    overflow:clip!important;
 
-}
-/*Shade truncated text instead of ellipsis*/
-.virtualized-table .cell, .drag-image-container .cell {
-text-overflow:clip!important;
-background: linear-gradient(to left,#00000033, transparent 25px)!important;
-}
 
-/*Hover effects*/
-.row:hover { 
-    background: rgb(26, 26, 26) !important;
-    font-size:1.15em!important;
-    z-index:9999999!important;
-    border:1px solid rgba(69, 69, 69, 0.839)!important;
-}
 
-/*Highlight selected row*/
-.virtualized-table .row.selected {
-    font-size:1.15em!important;
-    font-weight: 700!important;
+/******************************************************/
+/*Tab bar*/
+/******************************************************/
+/* Tab bar */
+.tab {
+    height: 28px !important;
+    --height-of-fixed-components: 28px !important;
+    padding-left: 4px !important;
+    padding-right: 20px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 0.75rem !important;
+    min-width: 226px !important;
+    font-family: 'Roslindale Text' !important;
+    box-sizing: border-box !important;
+    border: 1px solid rgba(84, 51, 51, 0.461) !important; /* Using same RGB values as hover */
+    transition: all 0.25s ease-in-out !important;
+  }
+  
+  /* Tab hover effects */
+  .tab:hover {
+    font-size: 0.87em !important;
+    min-width: 450px !important;
+    background-color: #2f040433 !important;
+    border: 1px solid rgb(82, 47, 47) !important; /* Same color, full opacity */
+  }
+
+/*Selected tab highlight*/
+.tab.selected{
+    font-size:0.87em!important;
 background: rgba(187, 10, 10, 0.4)!important;
-border-radius: 16px!important;
 border: 1px solid rgba(255, 16, 16, 0.36)!important;
 z-index:9999999!important;
+min-width:450px;
+width:450px;
 }
 
+/*Smaller 'pinned tab' width ("My Library, selected collection)*/
+.pinned-tabs{min-width:125px!important;
+    width:125px!important;
+    transition: all 0.25s ease-in-out !important;
 
-/*Fade highlight unfocused selected row*/
-.virtualized-table:not(:focus) .row.selected {
-    background: rgba(255, 16, 16, 0.3)!important;
-    z-index:9999999!important;
 }
 
+.pinned-tabs .selected{min-width:125px!important;
+    width:125px!important;
+    transition: all 0.25s ease-in-out !important;
 
-/**********************/
-/*Tab bar*/
-/**********************/
-.tab {height:28px!important;
-padding-left:4px!important;
-padding-right:20px!important;
-font-size:0.75rem!important;
-min-width:200px!important;
-font-family: 'Roslindale Text'!important;
 }
+.pinned-tabs .selected:hover{min-width:200px!important;
+    width:200px!important;
+}
+.pinned-tabs:hover{min-width:200px!important;
+width:200px!important;}
 
 
-/**********************/
+
+
+/******************************************************/
 /*Toolbar*/
-/**********************/
+/******************************************************/
+
 /*Shorten toolbar height*/
 .toolbar{min-height:29px!important;
     height:29px!important;
@@ -98,9 +107,69 @@ font-family: 'Roslindale Text'!important;
 }
 
 
-/***************************/
+
+
+/******************************************************/
+/*Items list*/
+/******************************************************/
+
+/*Remove some ellipses to save space*/
+.virtualized-table .row{
+    text-overflow:clip!important;
+    overflow:clip!important;
+    border: 1px solid transparent !important;
+    transition: all 0.15s ease-in-out !important;
+    font-family:'Franklin Gothic'!important;
+    font-weight:300!important;
+}
+
+/*Shade truncated text instead of ellipsis*/
+.virtualized-table .cell, .drag-image-container .cell {
+text-overflow:clip!important;
+background: linear-gradient(to left,#00000033, transparent 25px)!important;
+}
+
+/*Hover effects*/
+.row:hover { 
+    background: rgb(26, 26, 26) !important;
+    font-size:1.16em!important;
+    z-index:9999999!important;
+    border:1px solid rgba(69, 69, 69, 0.839)!important;
+}
+
+/*Highlight selected row*/
+.virtualized-table .row.selected {
+    font-size:1.14em!important;
+background: rgba(187, 10, 10, 0.4)!important;
+border-radius: 16px!important;
+border: 1px solid rgba(255, 16, 16, 0.36)!important;
+z-index:9999999!important;
+}
+
+
+/*Fade highlight unfocused selected row*/
+.virtualized-table:not(:focus) .row.selected {
+    background: rgba(255, 16, 16, 0.3)!important;
+    z-index:9999999!important;
+}
+
+
+
+
+
+/******************************************************/
 /*Left collection pane*/
-/***************************/
+/******************************************************/
+
+
+/*Allow narrow collections pane*/
+#zotero-collections-pane {
+    min-width:50px!important;
+color:grey!important;
+    }
+
+#zotero-collections-pane:hover {color:white!important;}
+
 
 /*Shove "My Library" to the left*/
 #collection-tree-row-0 {
@@ -132,10 +201,6 @@ margin-left: -15px!important;
 }
 
 
-/*Allow narrow collections pane*/
-#zotero-collections-pane {
-min-width:50px!important;
-}
 
 /*Remove "..." from collections for extra display space*/
 #zotero-collections-tree .cell.primary .cell-text{
@@ -149,6 +214,10 @@ min-width:50px!important;
 
 /*Allow short tag selector*/
 #zotero-tag-selector-container {min-height:10px!important;}
+
+
+
+
 
 /***************************/
 /*Right item/context pane*/
@@ -171,10 +240,15 @@ min-width:50px!important;
 /* Make draggable area for panes wider*/
 [zoteroUIDensity="compact"] .splitter{--draggable-size:12px!important;}
 
+#itembox-field-value-title {max-height:unset!important;}
+item-box #info-table meta-row {height:1.1em!important}
+
 
 /*
-.virtualized-table .row{background: #121212 !important; color: #FFFFFF !important;}
-.virtualized-table .row.highlighted {background: #383838 !important; color: #FFFFFF !important;}
 
 #zotero-item-pane-content {background: #121212 !important; color: #FFFFFF !important;}
+
+.virtualized-table .row{background: #121212 !important; color: #FFFFFF !important;}
+.virtualized-table .row.highlighted {background: #383838 !important; color: #FFFFFF !important;}
 */
+
