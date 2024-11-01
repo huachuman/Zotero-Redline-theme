@@ -12,11 +12,10 @@ This theme was created for personal purposes, so some bugs may exist, and some t
   - darker background
   - red background for selected
 - Truncated text cell shade (instead of ellipses)
-- shorter titlebar height
+- shorter menu and toolbars
 - wider tabs
 - grow + zoom text on tabs on hover
 - smooth transition effects
-- shorter toolbar
 - compact collections and items pane
 - fade collections when not focused
 - Franklin Gothic font for compact text display
