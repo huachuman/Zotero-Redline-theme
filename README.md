@@ -17,8 +17,12 @@ Currently designed for dark mode.
 - Truncated text cell shade (instead of ellipses)
 - shorter titlebar height
 - wider tabs
+- grow +zoom tabs on hover
+- smooth transition effects
 - shorter toolbar
 - compact collections and items pane
+- fade collections when not focused
+- Franklin Gothic font for compact text
 - more to come
 
 Note: keep in mind you can adjust font size in Zotero's View menu
