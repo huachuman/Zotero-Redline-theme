@@ -1,5 +1,5 @@
 # Zotero Redline (functional Zotero theme)
-Make the most out of your pixels and try this compact, functional but sexy Zotero theme.
+Make the most out of your pixels and try this compact, functional Zotero theme.
 
 Currently designed for dark mode.
 
