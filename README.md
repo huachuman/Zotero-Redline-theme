@@ -1,5 +1,5 @@
 # Zotero Redline (functional Zotero theme)
-Zotero 7 is pretty, but it doesn't make the best use of your screen space. If you prefer getting work done over just feeling pretty, and making the most out of your pixels, try this compact, functional but sexy Zotero theme.
+Make the most out of your pixels and try this compact, functional but sexy Zotero theme.
 
 Currently designed for dark mode.
 
