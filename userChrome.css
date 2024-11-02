@@ -63,13 +63,33 @@ min-width:450px;
 width:450px;
 }
 
+/*Fix moving close button by swapping close button with icon*/
+.tab-icon {
+    position:absolute!important;
+    right:4px!important
+}
+.tab-close {
+    left:3px!important;
+    width:20px!important;
+    height:20px!important;
+}
+
+/*Prevent tab name from overlapping with close button*/
+.tab-name {margin-inline-start:19px!important;
+}
+
+/*reduce tab name masking by half*/
+.tab .tab-name.overflowing:dir(ltr) {
+    mask-image:linear-gradient(to left, transparent 0px, var(--fill-primary) 11px)!important;
+}
+
+
 /*Smaller 'pinned tab' width ("My Library, selected collection)*/
 .pinned-tabs{min-width:125px!important;
     width:125px!important;
     transition: all 0.25s ease-in-out !important;
 
 }
-
 .pinned-tabs .selected{min-width:125px!important;
     width:125px!important;
     transition: all 0.25s ease-in-out !important;
@@ -119,14 +139,19 @@ width:200px!important;}
     overflow:clip!important;
     border: 1px solid transparent !important;
     transition: all 0.15s ease-in-out !important;
-    font-family:'Franklin Gothic'!important;
+    font-family:'Archivo Narrow'!important;
     font-weight:300!important;
+    mask-image:linear-gradient(to left, transparent 0px, var(--fill-primary) 10px)
 }
 
 /*Shade truncated text instead of ellipsis*/
 .virtualized-table .cell, .drag-image-container .cell {
 text-overflow:clip!important;
 background: linear-gradient(to left,#00000033, transparent 25px)!important;
+}
+
+.virtualized-table .cell.first-column .cell-text, .virtualized-table .cell.primary .cell-text, .drag-image-container .cell.first-column .cell-text, .drag-image-container .cell.primary .cell-text {
+    text-overflow:clip!important;
 }
 
 /*Hover effects*/
@@ -238,11 +263,7 @@ margin-left: -15px!important;
 }
 
 /* Make draggable area for panes wider*/
-[zoteroUIDensity="compact"] .splitter{--draggable-size:12px!important;}
-
-#itembox-field-value-title {max-height:unset!important;}
-item-box #info-table meta-row {height:1.1em!important}
-
+.splitter{--draggable-size:15px!important;}
 
 /*
 
