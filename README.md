@@ -3,7 +3,7 @@ Make the most out of your pixels and try this compact, functional Zotero theme.
 
 Currently designed for dark mode.
 
-The zotero dev team seems to be very opinionated as to what we should be doing with their software, making decisions that, let's face it, often don't make sense.
+The zotero dev team seems to be very opinionated as to what we should be doing with their software, making decisions that, let's face it, often don't make sense (despite them saying "trust us we've put a lot of thought into this")
 
 This project was created to remedy that issue, and provide you with options to modify the Zotero interface using CSS. 
 
