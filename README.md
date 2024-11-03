@@ -33,11 +33,12 @@ But be careful, the Zotero team does not like you editing things like this, beca
 Note: keep in mind you can adjust font size in Zotero's View menu
 
 ## Installation
-Place the userChrome.css in:
-
-C:\Users\User_name\AppData\Roaming\Zotero\Zotero\Profiles\YourProfile.default\chrome\
-
-I think this location may be in Local instead of Roaming depending on your installation, but don't hold me to it.
+Go to your user Profile folder
+Windows users: C:\Users\User_name\AppData\Roaming\Zotero\Zotero\Profiles\user_profile.default\
+Linux (Flatpak) users: ~/.zotero/zotero/XXXXXXXX.default/
+Create a chrome folder
+Place the userChrome.css file in there
+Start Zotero and enjoy
 
 Reversing the changes: simply delete the file.
 
