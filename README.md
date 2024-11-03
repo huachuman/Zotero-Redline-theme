@@ -9,7 +9,7 @@ This project was created to remedy that issue, and provide you with options to m
 
 This theme is an example of that, and was created for personal purposes, so some bugs may exist, and some tweaks may be needed for your own preferences. Feel free to contribute or post anything in Issues. I'm happy to help try and adress issues, or try and help you modify other elements.
 
-But be careful, the Zotero team does not like you editing things like this, because they think it's going to confuse you, or you're going to forget you did this, or something like that. That's a fair point, if you're a dummy. But you're not a dummy, are you? You're a grown-up, and you can experiment as much as you want. If you don't like the changes, or this is all too much for you, that's totally fine. Just remove the userchrome file from your chrome folder, and voila, back to normal.
+But be careful, the Zotero team does not like you editing things like this, because they think it's going to confuse you, or you're going to forget you did this, or something like that. That's a fair point, if you're a dummy. But you're not a dummy, are you? You're a grown-up, and you can experiment as much as you want. If you don't like the changes, or this is all too much for you, that's totally fine. Just remove the userchrome file from your profile\chrome folder, and voila, back to normal.
 
 ## Features:
 - generally reduced wasted space
