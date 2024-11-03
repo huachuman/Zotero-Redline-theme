@@ -3,7 +3,11 @@ Make the most out of your pixels and try this compact, functional Zotero theme.
 
 Currently designed for dark mode.
 
-This theme was created for personal purposes, so some bugs may exist, and some tweaks may be needed for your own preferences. Feel free to contribute or post anything in Issues!
+The zotero dev team seems to be very opinionated as to what we should be doing with their software, making decisions that, let's face it, often don't make sense.
+
+This project was created to remedy that issue, and provide you with options to modify the Zotero interface using CSS. 
+
+This theme is an example of that, and was created for personal purposes, so some bugs may exist, and some tweaks may be needed for your own preferences. Feel free to contribute or post anything in Issues!
 
 ## Features:
 - generally reduced wasted space
