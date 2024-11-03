@@ -9,7 +9,7 @@ This project was created to remedy that issue, and provide you with options to m
 
 This theme is an example of that, and was created for personal purposes, so some bugs may exist, and some tweaks may be needed for your own preferences. Feel free to contribute or post anything in Issues!
 
-But be careful, the Zotero team does not like you editing things like this, because they think it's going to confuse you, or you're going to forget you did this, or something like that. That's a fair point, if you're a dummy. But you're not a dummy, are you? You're a grown-up, and you can experiment as much as you want.
+But be careful, the Zotero team does not like you editing things like this, because they think it's going to confuse you, or you're going to forget you did this, or something like that. That's a fair point, if you're a dummy. But you're not a dummy, are you? You're a grown-up, and you can experiment as much as you want. If you don't like the chance, just remove the userchrome file from your chrome folder, and voila, back to normal.
 
 ## Features:
 - generally reduced wasted space
@@ -38,6 +38,8 @@ Place the userChrome.css in:
 C:\Users\User_name\AppData\Roaming\Zotero\Zotero\Profiles\YourProfile.default\chrome\
 
 I think this location may be in Local instead of Roaming depending on your installation, but don't hold me to it.
+
+Reversing the changes: simply delete the file.
 
 ## Modding Zotero:
 If you want further customization, here are the steps to get DevTools and use the Element Picker to edit almost anything you want. These are the steps for Windows. If someone knows the steps for other platofrms please let me know.
