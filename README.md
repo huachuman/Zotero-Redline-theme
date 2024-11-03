@@ -9,6 +9,8 @@ This project was created to remedy that issue, and provide you with options to m
 
 This theme is an example of that, and was created for personal purposes, so some bugs may exist, and some tweaks may be needed for your own preferences. Feel free to contribute or post anything in Issues!
 
+But be careful, the Zotero team does not like you editing their software because they think it's going to confuse you, or you're going to forget you added this or something. That's a fair point, if you're a dummy. But you're not a dummy, are you? You're a grown-up, and you can experiment as much as you want.
+
 ## Features:
 - generally reduced wasted space
 - item hover and select effects
