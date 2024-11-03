@@ -11,14 +11,17 @@ This theme was created for personal purposes, so some bugs may exist, and some t
   - slight text zoom
   - darker background
   - red background for selected
-- Truncated text cell shade (instead of ellipses)
+- expanded quick search box
 - shorter menu and toolbars
 - wider tabs
 - grow + zoom text on tabs on hover
 - smooth transition effects
-- compact collections and items pane
-- fade collections when not focused
-- Franklin Gothic font for compact text display
+- allow narrower left + right panels
+- compact collections pane
+- fade collections pane when not focused
+- truncated text cell shade (instead of ellipses)
+- Archivo Narrow font for compact text display
+  - get from google fonts: https://fonts.google.com/specimen/Archivo+Narrow
 - more to come
 
 Note: keep in mind you can adjust font size in Zotero's View menu
