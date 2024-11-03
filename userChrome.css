@@ -126,8 +126,17 @@ width:200px!important;}
     width: 35px!important;
 }
 
+/*Expand quick search box*/
+.quick-search-textbox {--search-textbox-width:500px!important;
+width:500px!important;}
 
+#zotero-tb-search{
+    width:500px!important;
+}
 
+#zotero-tb-search-textbox {
+    width:500px!important;
+}
 
 /******************************************************/
 /*Items list*/
