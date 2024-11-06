@@ -67,18 +67,9 @@ Zotero with throw a warning or two up, just say ok and let it load. You'll see t
 If you're not sure how this works, the element picker is at the top left ![image](https://github.com/user-attachments/assets/cb0b1f74-2ce2-4088-aee7-a6d62189973d). Click that and hover over the Zotero interface and you'll see in the Inspector window it will highlight the item's css. Click on an item in the Zotero interface to hold it steady in the Inspector. You can play with the css on the right panel here, under "Rules," and get the selectors for modding by copying the text above the properties (usually starts with a '.' or a '#'. You can also get them from the Inspector window by copying the class or id. You can test modifications by editing the css directly in the Rules window, but these will disappear on restart. Paste your selector and any modifications into the userChrome.css, save and restart Zotero to see what it looks like!
 
 
-### Exploring the Zotero CSS codebase
-
-Go to the folder of my Zotero install (C:\Programs(x86)\Zotero)
-
-Copy the zotero.jar folder to another folder
-
-Use 7zip to unzip zotero.jar to a zotero folder
-
-Go to D:\X\zotero\chrome\skin\default\zotero
-
-Look at ALL .css files in this folder
-
+### Exploring the open source Zotero CSS codebase
+Browse the files in https://github.com/zotero/zotero/tree/main/scss
+Or clone/download the code and browse this folder offline
 Start testing different pieces of code to change the defaults in the userchrome.css file.
 
 
