@@ -52,15 +52,15 @@ If you want further customization, you can do two things. Explore Zotero's many 
 ### 1. Tinkering with the DevTools Element Picker
 These are the steps for Windows. If someone knows the steps for other platofrms please let me know.
 
+1. Create a new shortcut wherever you like in your files (right click > new > shortcut)
+
+  Copy paste this: `"C:\Program Files\Zotero\zotero.exe" -ZoteroDebugText -jsdebugger` - You may have to adjust the path for your installation.
+
+ 2. Save it and launch the shortcut.
+
+3. Zotero with throw a warning or two up, just say ok and let it load. You'll see the DevTools window appear along with Zotero now.
+
 Note that some elements are harder to style than others.
-
-Create a new shortcut wherever you like in your files (right click > new > shortcut) and paste this: 
-
-"C:\Program Files\Zotero\zotero.exe" -ZoteroDebugText -jsdebugger
-
-You may have to adjust the path for your installation. But keep the quotations marks. Save it and launch the shortcut.
-
-Zotero with throw a warning or two up, just say ok and let it load. You'll see the DevTools window appear along with Zotero now.
 
 If you're new to the element picker, you'll find it at the top left ![image](https://github.com/user-attachments/assets/cb0b1f74-2ce2-4088-aee7-a6d62189973d). Click that and hover over the Zotero interface and you'll see in the Inspector window it will highlight the item's css. Click on an item in the Zotero interface to hold it steady in the Inspector. You can play with the css on the right panel here, under "Rules," and get the selectors for modding by copying the text above the properties (usually starts with a '.' or a '#'. You can also get them from the Inspector window by copying the class or id. You can test modifications by editing the css directly in the Rules window, but these will disappear on restart. Paste your selector and any modifications into the userChrome.css, save and restart Zotero to see what it looks like!
 
