@@ -68,11 +68,17 @@ If you're not sure how this works, the element picker is at the top left ![image
 
 
 ### Exploring the Zotero CSS codebase
+
 Go to the folder of my Zotero install (C:\Programs(x86)\Zotero)
+
 Copy the zotero.jar folder to another folder
+
 Use 7zip to unzip zotero.jar to a zotero folder
+
 Go to D:\X\zotero\chrome\skin\default\zotero
+
 Look at ALL .css files in this folder
+
 Start testing different pieces of code to change the defaults in the userchrome.css file.
 
 
