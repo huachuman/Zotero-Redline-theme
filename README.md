@@ -5,7 +5,7 @@ Currently designed for dark mode.
 
 The Zotero dev team seems to have a knack for making decisions that leave us mere mortals questioning their divine wisdom. They assure us that they've put more thought into these choices than a philosopher contemplating the meaning of life, yet we can't help but wonder if they've become a bit too enamored with their own brilliance. It's as if they've gazed into the future and determined what's best for us, even if it doesn't quite align with our puny human desires. But who are we to argue with the masterminds behind the software we've grown to love and depend on? After all, they must have a secret roadmap to success that we're just not privy to. So, let's forge ahead with our own vision, and show the Zotero dev team that sometimes, the best path forward is the one we create for ourselves, even if it means going against the grain of their mysterious ways.
 
-This project was created to remedy that issue, and provide you with options to modify the Zotero interface using CSS. 
+This project was created to remedy this, and provide you with options to mod the Zotero interface.
 
 This theme is an example of that, and was created for personal purposes, so some bugs may exist, and some tweaks may be needed for your own preferences. Feel free to contribute or post anything in Issues. I'm happy to help try and adress issues, or try and help you modify other elements.
 
@@ -49,16 +49,30 @@ Start Zotero and enjoy
 Reversing the changes: simply delete the file.
 
 ## Modding Zotero:
-If you want further customization, here are the steps to get DevTools and use the Element Picker to edit almost anything you want. These are the steps for Windows. If someone knows the steps for other platofrms please let me know.
+If you want further customization, you can do two things. Explore Zotero's many css files, or use the DevTools Element Picker. I recommend you start with the Element Picker.
+
+### Tinkering with the DevTools Element Picker
+here are the steps to get DevTools and use the Element Picker to edit almost anything you want. These are the steps for Windows. If someone knows the steps for other platofrms please let me know.
 
 Note that some elements are harder to style than others.
 
-Create a new shortcut on your desktop or elsewhere (right click > new > shortcut) and paste this: 
+Create a new shortcut wherever you like in your files (right click > new > shortcut) and paste this: 
 
 "C:\Program Files\Zotero\zotero.exe" -ZoteroDebugText -jsdebugger
 
 You may have to adjust the path for your installation. But keep the quotations marks. Save it and launch the shortcut.
 
-Zotero with throw some warnings up, just say ok and let it load. You'll see the DevTools window appear along with Zotero now.
+Zotero with throw a warning or two up, just say ok and let it load. You'll see the DevTools window appear along with Zotero now.
 
 If you're not sure how this works, the element picker is at the top left ![image](https://github.com/user-attachments/assets/cb0b1f74-2ce2-4088-aee7-a6d62189973d). Click that and hover over the Zotero interface and you'll see in the Inspector window it will highlight the item's css. Click on an item in the Zotero interface to hold it steady in the Inspector. You can play with the css on the right panel here, under "Rules," and get the selectors for modding by copying the text above the properties (usually starts with a '.' or a '#'. You can also get them from the Inspector window by copying the class or id. You can test modifications by editing the css directly in the Rules window, but these will disappear on restart. Paste your selector and any modifications into the userChrome.css, save and restart Zotero to see what it looks like!
+
+
+### Exploring the Zotero CSS codebase
+Go to the folder of my Zotero install (C:\Programs(x86)\Zotero)
+Copy the zotero.jar folder to another folder
+Use 7zip to unzip zotero.jar to a zotero folder
+Go to D:\X\zotero\chrome\skin\default\zotero
+Look at ALL .css files in this folder
+Start testing different pieces of code to change the defaults in the userchrome.css file.
+
+
