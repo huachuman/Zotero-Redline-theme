@@ -1,3 +1,8 @@
+/* Add this at the very top of your file */
+@-moz-document url-prefix("chrome://zotero/") {
+    /* all your existing CSS goes here */
+}
+
 /******************************************************/
 /*Title aka Menu bar*/
 /******************************************************/
@@ -37,9 +42,9 @@
     padding-right: 20px !important;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
-    font-size: 0.75rem !important;
+    font-size: 0.92rem !important;
     min-width: 226px !important;
-    font-family: 'Roslindale Text' !important;
+    font-family: 'Archivo Narrow' !important;
     box-sizing: border-box !important;
     border: 1px solid rgba(84, 51, 51, 0.461) !important; /* Using same RGB values as hover */
     transition: all 0.25s ease-in-out !important;
@@ -47,7 +52,7 @@
   
   /* Tab hover effects */
   .tab:hover {
-    font-size: 0.87em !important;
+    font-size: 1.1em !important;
     min-width: 450px !important;
     background-color: #2f040433 !important;
     border: 1px solid rgb(82, 47, 47) !important; /* Same color, full opacity */
@@ -55,7 +60,7 @@
 
 /*Selected tab highlight*/
 .tab.selected{
-    font-size:0.87em!important;
+    font-size:1.1em!important;
 background: rgba(187, 10, 10, 0.4)!important;
 border: 1px solid rgba(255, 16, 16, 0.36)!important;
 z-index:9999999!important;
@@ -75,7 +80,7 @@ width:450px;
 }
 
 /*Prevent tab name from overlapping with close button*/
-.tab-name {margin-inline-start:19px!important;
+.tab-name {margin-inline-start:17px!important;
 }
 
 /*reduce tab name masking by half*/
@@ -104,6 +109,7 @@ width:200px!important;}
 
 
 
+
 /******************************************************/
 /*Toolbar*/
 /******************************************************/
@@ -126,17 +132,49 @@ width:200px!important;}
     width: 35px!important;
 }
 
-/*Expand quick search box*/
+/*Expand & darken quick search box*/
 .quick-search-textbox {--search-textbox-width:500px!important;
-width:500px!important;}
+width:500px!important;
+background-color: #171717!important;}
 
 #zotero-tb-search{
     width:500px!important;
-}
+    background-color: #171717!important;}
 
 #zotero-tb-search-textbox {
     width:500px!important;
+    background-color: #171717!important;
 }
+
+#zotero-tb-search-textbox:hover {
+     background-color: #282828!important;
+     border: 1px solid rgba(84, 51, 51, 0.461) !important; /* Using same RGB values as hover */
+    }
+
+     #zotero-tb-search-textbox:focus {
+        background-color: #282828!important;
+    }
+
+    /*hover sorting columns*/
+    .virtualized-table-header .cell{
+        font-family: 'Archivo Narrow'!important;
+        overflow:clip!important;
+        text-overflow: clip!important;
+    }
+
+    .virtualized-table-header .cell:hover{
+        background-color: #141414!important;
+        color: #FFFFFF!important;
+        border: 1px solid rgba(84, 51, 51, 0.461) !important; /* Using same RGB values as hover */
+    }
+
+    .virtualized-table-header .cell .label{
+        text-overflow:clip!important;
+    }
+
+
+
+
 
 /******************************************************/
 /*Items list*/
@@ -150,17 +188,22 @@ width:500px!important;}
     transition: all 0.15s ease-in-out !important;
     font-family:'Archivo Narrow'!important;
     font-weight:300!important;
-    mask-image:linear-gradient(to left, transparent 0px, var(--fill-primary) 10px)
+    mask-image:linear-gradient(to left, transparent 0px, var(--fill-primary) 10px)!important;
 }
 
 /*Shade truncated text instead of ellipsis*/
 .virtualized-table .cell, .drag-image-container .cell {
 text-overflow:clip!important;
-background: linear-gradient(to left,#00000033, transparent 25px)!important;
+background: linear-gradient(to left,#00000021, transparent 25px)!important;
 }
 
 .virtualized-table .cell.first-column .cell-text, .virtualized-table .cell.primary .cell-text, .drag-image-container .cell.first-column .cell-text, .drag-image-container .cell.primary .cell-text {
     text-overflow:clip!important;
+}
+
+/*Make shade apply across all rows more consistently*/
+.virtualized-table .row, .drag-image-container .row{
+    align-items:unset!important;
 }
 
 /*Hover effects*/
@@ -177,7 +220,7 @@ background: linear-gradient(to left,#00000033, transparent 25px)!important;
 background: rgba(187, 10, 10, 0.4)!important;
 border-radius: 16px!important;
 border: 1px solid rgba(255, 16, 16, 0.36)!important;
-z-index:9999999!important;
+z-index:99999999!important;
 }
 
 
@@ -200,15 +243,18 @@ z-index:9999999!important;
 #zotero-collections-pane {
     min-width:50px!important;
 color:grey!important;
+font-size: 0.9em!important;
     }
 
+/*Fade in collection pane on hover*/
 #zotero-collections-pane:hover {color:white!important;}
 
 
 /*Shove "My Library" to the left*/
 #collection-tree-row-0 {
-margin-left: -15px!important;
+margin-left: 17px!important;
 }
+
 
 /*Shove Collection list to the left*/
 #zotero-collections-tree-container {
@@ -217,6 +263,9 @@ margin-left: -15px!important;
     overflow-x: hidden!important;
  }
 
+ .virtualized-table-body, .drag-image-container{
+    padding: 0px 0px 0px 7px!important;
+ }
  /*Make folder icons smaller*/
 #zotero-collections-tree .virtualized-table .row .icon-css:not(.twisty) {
         width:10px!important;
@@ -229,14 +278,9 @@ margin-left: -15px!important;
     margin-left:0px!important;
 }
 
- /*Fix oversized tag button*/
-.tag-selector-filter-container .btn{
-        padding:3px 4px!important;
-}
 
 
-
-/*Remove "..." from collections for extra display space*/
+/*Remove ellipses from collections for extra display space*/
 #zotero-collections-tree .cell.primary .cell-text{
     overflow:clip!important;
     text-overflow: clip!important;
@@ -246,33 +290,69 @@ margin-left: -15px!important;
     width:110%!important;
 }
 
-/*Allow short tag selector*/
-#zotero-tag-selector-container {min-height:10px!important;}
 
 
 
 
+/******************************************************/
+/*TAG SELECTOR*/
+/******************************************************/
 
-/***************************/
+/*Allow short tag selector panel*/
+#zotero-tag-selector-container {min-height:25px!important;}
+
+
+/*Change tag selector font*/
+.tag-selector-list {font-family:'Archivo Narrow'!important;}
+
+
+/*Remove ellipses from tags and reduce panel padding*/
+.tag-selector-item {text-overflow: clip!important;
+padding-left:0px!important;
+padding-top:2px!important;
+padding-bottom:2px!important;
+}
+
+
+ /*Fix oversized tag filter button*/
+ .tag-selector-filter-container .btn{
+    padding:3px 4px!important;
+}
+
+
+
+/******************************************************/
 /*Right item/context pane*/
-/***************************/
+/******************************************************/
 
 /*Allow narrow right side item/context panes*/
 .item-pane {
     min-width:80px!important;
+    font-size:0.95em!important;
+    font-family: 'Archivo Narrow'!important;
+    --width-available-item-pane:80px!important;
 }
+
+#zotero-item-pane {
+    min-width:80px!important;
+--width-available-item-pane:80px!important;
+}
+
 .zotero-item-pane-content {
-    min-width:100px!important;
+    min-width:80px!important;
+    font-size:0.95em!important;
+    font-family: 'Archivo Narrow'!important;
+    --width-available-item-pane:80px!important;
 }
 #zotero-context-pane {
-    min-width:200px!important;
+    min-width:80px!important;
 }
 #zotero-context-pane-inner {
-    min-width:200px!important;
+    min-width:80px!important;
 }
 
 /* Make draggable area for panes wider*/
-.splitter{--draggable-size:15px!important;}
+.splitter{--draggable-size:16px!important;}
 
 /*
 
@@ -281,4 +361,28 @@ margin-left: -15px!important;
 .virtualized-table .row{background: #121212 !important; color: #FFFFFF !important;}
 .virtualized-table .row.highlighted {background: #383838 !important; color: #FFFFFF !important;}
 */
+
+/* Custom scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(187, 10, 10, 0.4) #2f0404;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2f0404;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(187, 10, 10, 0.4);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 16, 16, 0.36);
+}
 
