@@ -3,7 +3,7 @@ Make the most out of your pixels with this compact, functional Zotero theme.
 
 Currently designed for dark mode.
 
-The Zotero dev team appears to have quite a few strong opinions about what we should and shouldn't be doing with their software. They make decisions that, if we're being honest, often leave us scratching our heads, despite their insistence that they've put a great deal of thought into them. It's almost as if they believe they know what's best for us better than we do. But hey, who are we to question their infinite wisdom? After all, they did create the software we've come to rely on, even if we don't always see eye to eye with their choices.
+The Zotero dev team seems to have a knack for making decisions that leave us mere mortals questioning their divine wisdom. They assure us that they've put more thought into these choices than a philosopher contemplating the meaning of life, yet we can't help but wonder if they've become a bit too enamored with their own brilliance. It's as if they've gazed into the future and determined what's best for us, even if it doesn't quite align with our puny human desires. But who are we to argue with the masterminds behind the software we've grown to love and depend on? After all, they must have a secret roadmap to success that we're just not privy to. So, let's forge ahead with our own vision, and show the Zotero dev team that sometimes, the best path forward is the one we create for ourselves, even if it means going against the grain of their mysterious ways.
 
 This project was created to remedy that issue, and provide you with options to modify the Zotero interface using CSS. 
 
