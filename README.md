@@ -52,7 +52,7 @@ Reversing the changes: simply delete the file.
 If you want further customization, you can do two things. Explore Zotero's many css files, or use the DevTools Element Picker. I recommend you start with the Element Picker.
 
 ### Tinkering with the DevTools Element Picker
-here are the steps to get DevTools and use the Element Picker to edit almost anything you want. These are the steps for Windows. If someone knows the steps for other platofrms please let me know.
+These are the steps for Windows. If someone knows the steps for other platofrms please let me know.
 
 Note that some elements are harder to style than others.
 
