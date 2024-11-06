@@ -9,7 +9,7 @@ Sometimes, the best path forward is the one we create for ourselves, even if it 
 
 That's where this project comes in. I want to give users more control over their Zotero experience, even if it means going against the Zotero dev team's vision. This theme is an example of how you can customize your Zotero interface and make it work for you. It's far from perfect, and may have some bugs or need tweaks to fit your needs. If you have any ideas or run into any issues, let me know. I'm here to help and make this theme better together.
 
-Beware, the Zotero team isn't too keen on you tinkering with things like this. They think you'll get lost in the code, forget what you've done, and end up in a state of utter confusion. While that might be a valid concern for some, fear not, my intrepid friend. This is foolproof. If you find yourself in over your head or decide that this isn't your cup of tea, no worries. Simply remove the userchrome file from your profile\chrome folder, and voila! You'll be back to the default setup faster than you can say "I should have listened to the Zotero team."
+Beware, the Zotero team isn't too keen on you tinkering with things like this. They think you'll get lost in the code, forget what you've done, and end up in a state of utter confusion. While that might be a valid concern for some, fear not, my intrepid friend. Modding the userChrome.css is stupid-proof. If you find yourself in over your head or decide that this isn't your cup of tea, no worries. Simply remove the userchrome file from your profile\chrome folder, and voila! You'll be back to the default setup faster than you can say "I should have listened to the Zotero team."
 
 ## Features:
 - generally reduced wasted space
