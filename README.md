@@ -3,13 +3,13 @@ Make the most out of your pixels with this compact, functional Zotero theme.
 
 Currently designed for dark mode.
 
-The zotero dev team seems to be very opinionated as to what we should be doing with their software, making decisions that, let's face it, often don't make sense (despite them saying "trust us we've put a lot of thought into this")
+The Zotero dev team appears to have quite a few strong opinions about what we should and shouldn't be doing with their software. They make decisions that, if we're being honest, often leave us scratching our heads, despite their insistence that they've put a great deal of thought into them. It's almost as if they believe they know what's best for us better than we do. But hey, who are we to question their infinite wisdom? After all, they did create the software we've come to rely on, even if we don't always see eye to eye with their choices.
 
 This project was created to remedy that issue, and provide you with options to modify the Zotero interface using CSS. 
 
 This theme is an example of that, and was created for personal purposes, so some bugs may exist, and some tweaks may be needed for your own preferences. Feel free to contribute or post anything in Issues. I'm happy to help try and adress issues, or try and help you modify other elements.
 
-But be careful, the Zotero team does not like you editing things like this, because they think it's going to confuse you, or you're going to forget you did this, or something like that. That's a fair point, if you're a dummy. But fear not, this is stupid-proof. If you don't like the changes, or this is all too much for you, that's totally fine. Just remove the userchrome file from your profile\chrome folder, and voila, back to normal.
+But beware, the Zotero team isn't too keen on you tinkering with things like this. They seem to think you'll get lost in the code, forget what you've done, and end up in a state of utter confusion. While that might be a valid concern for some, fear not, my intrepid friend. This modification is foolproof. If you find yourself in over your head or decide that this isn't your cup of tea, no worries. Simply remove the userchrome file from your profile\chrome folder, and voila! You'll be back to the default setup faster than you can say "I should have listened to the Zotero team."
 
 ## Features:
 - generally reduced wasted space
