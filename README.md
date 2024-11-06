@@ -3,7 +3,9 @@ Make the most out of your pixels with this compact, functional Zotero theme.
 
 Currently designed for dark mode.
 
-The Zotero dev team seems to have a knack for making decisions that leave us mere mortals questioning their divine wisdom. They assure us that they've put more thought into these choices than a philosopher contemplating the meaning of life, yet we can't help but wonder if they've become a bit too enamored with their own brilliance. It's as if they've gazed into the future and determined what's best for us, even if it doesn't quite align with our puny human desires. But who are we to argue with the masterminds behind the software we've grown to love and depend on? After all, they must have a secret roadmap to success that we're just not privy to. So, let's forge ahead with our own vision, and show the Zotero dev team that sometimes, the best path forward is the one we create for ourselves, even if it means going against the grain of their mysterious ways.
+The Zotero dev team seems to have a knack for making decisions that leave us mere mortals questioning their divine wisdom. They assure us that they've put more thought into these choices than a philosopher contemplating the meaning of life, yet we can't help but wonder if they've become a bit too enamored with their own brilliance. It's as if they've gazed into the future and determined what's best for us, even if it doesn't quite align with our puny human desires. But who are we to argue with the masterminds behind the software we've grown to love and depend on? 
+
+Sometimes, the best path forward is the one we create for ourselves, even if it means going against the grain of their mysterious ways.
 
 This project was created to remedy this, and provide you with options to mod the Zotero interface. This theme is an example of how to do this, and was created for personal purposes, so some bugs may exist, and some tweaks may be needed for your own preferences. Feel free to contribute or post anything in Issues. I'm happy to help try and adress issues, or try and help you modify other elements.
 
